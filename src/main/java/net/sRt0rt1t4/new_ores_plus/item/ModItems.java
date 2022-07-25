@@ -10,9 +10,9 @@ import net.sRt0rt1t4.new_ores_plus.newOresMod;
 public class ModItems {
 
     public static final Item RAW_ADAMANTIUM = registerItem("raw_adamantium",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
 
