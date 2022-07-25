@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.sRt0rt1t4.new_ores_plus.newOresMod"
+    ],
+    "client": [
+      "net.sRt0rt1t4.new_ores_plus.newOresModClient"
     ]
   },
   "mixins": [
