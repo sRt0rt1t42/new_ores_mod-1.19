@@ -4,9 +4,10 @@
   "version": "${version}",
 
   "name": "New Ores+",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "New Ores+ adds adamantium and tungsten to Minecraft!",
   "authors": [
-    "sRt0rt1t4"
+    "sRt0rt1t4",
+    "danase"
   ],
   "contact": {
     "homepage": "https://twitter.com/srt0rt1t42",
