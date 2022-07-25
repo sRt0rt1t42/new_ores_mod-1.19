@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "new_ores_plus",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "New Ores+",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "sRt0rt1t4"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://twitter.com/srt0rt1t42",
+    "sources": "https://github.com/sRt0rt1t42/new_ores_mod-1.19"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/new_ores_plus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.sRt0rt1t4.new_ores_plus.newOresMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "new_ores_plus.mixins.json"
   ],
 
   "depends": {

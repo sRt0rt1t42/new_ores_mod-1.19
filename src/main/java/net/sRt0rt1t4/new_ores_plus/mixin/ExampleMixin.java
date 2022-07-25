@@ -1,8 +1,7 @@
 package net.sRt0rt1t4.new_ores_plus.mixin;
 
-import net.sRt0rt1t4.new_ores_plus.NewOresMod;
+import net.sRt0rt1t4.new_ores_plus.newOresMod;
 import net.minecraft.client.gui.screen.TitleScreen;
-import net.sRt0rt1t4.new_ores_plus.NewOresMod;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -12,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		NewOresMod.LOGGER.info("This line is printed by an new_ores_plus mod mixin!");
+		newOresMod.LOGGER.info("This line is printed by an new_ores_plus mod mixin!");
 	}
 }
