@@ -13,6 +13,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item ADAMANTIUM = registerItem("adamantium",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
 

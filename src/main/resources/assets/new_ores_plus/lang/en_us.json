@@ -1,4 +1,6 @@
 {
   "item.new_ores_plus.raw_adamantium": "Raw Adamantium",
-  "item.new_ores_plus.raw_tungsten": "Raw Tungsten"
+  "item.new_ores_plus.raw_tungsten": "Raw Tungsten",
+  "item.new_ores_plus.adamantium": "Adamantium",
+  "item.new_ores_plus.tungsten_ingot": "Tungsten Ingot"
 }
